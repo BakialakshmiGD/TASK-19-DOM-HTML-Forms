@@ -1,0 +1,52 @@
+h1{
+  color: rgb(95, 194, 194);
+}
+
+body{
+  width: 80%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 70%;
+}
+
+table.list {
+  width: 80%;
+}
+
+td,
+th {
+  border: 3px solid rgb(95, 194, 194);
+  padding: 8px;
+}
+
+input[type="text"],
+input[type="number"],select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(95, 194, 194);;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#Submit{
+  width: 100%;
+  background-color:rgb(95, 194, 194);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+tr:nth-child(even),
+table.list thead > tr {
+  background-color:rgb(95, 194, 194);
+}
+
+
+
+
+
